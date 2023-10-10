@@ -40,7 +40,7 @@ body {
     padding: 10px;
     margin: 25px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     border-style: none;
     cursor: pointer;
     background-color: rgb(39, 146, 218);
@@ -52,7 +52,7 @@ body {
 }
 
 .friend-list label {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .index-container {
@@ -69,13 +69,13 @@ body {
 
 .f_list th, .f_list td {
     padding: 10px;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 
 #Add a{
     text-align: right;
-    font-size: 19px;
+    font-size: 18px;
     display: block; 
     text-align: center; 
 }
@@ -160,7 +160,7 @@ body {
         padding: 10px;
         margin: 20px;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         background-color: rgb(39, 146, 218);
     }
 
@@ -177,7 +177,7 @@ body {
     .button {
         max-width: 250px;
         margin: 20px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
