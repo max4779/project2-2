@@ -13,10 +13,10 @@ body {
     padding: 20px; 
     border-radius: 10px;
     background-color: white;
-    max-width: 768px;
+    max-width: 100%;
     width: 100%; 
-    margin: 0 auto;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container h1 {
@@ -64,6 +64,7 @@ body {
     width: 100%;
     border: 1px solid #d4d4d4;
     white-space: nowrap;
+    overflow-x: auto;
 }
 
 .f_list th, .f_list td {
