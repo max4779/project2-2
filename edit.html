@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Friend</title>
+    <title>도서 추가</title>
     <link rel="stylesheet" type="text/css" href="my.css">
 
 
 </head>
 <body>
     <div class="container">
-        <h1>Add Friend</h1>
+        <h1>Friend</h1>
         <form id="friend-list" onsubmit="return validationCheck()" action="index.html">
-            <div class="add-list">
+            <div class="edit-list">
                 <label for="name">Name</label>
                 <input type="text" class="input" id="NAME" placeholder="Name" required>
             </div>
-            <div class="add-list">
+            <div class="edit-list">
                 <label for="number">Number</label>
                 <input type="number" class="input" id="NUMBER" placeholder="Number" required>
             </div>
-            <div class="add-list">
+            <div class="edit-list">
                 <label for="email">Email</label>
                 <input type="text" class="input" id="EMAIL" placeholder="Email" required>
             </div>
-            <div class="add-list">
+            <div class="edit-list">
                 <label for="Address">Address</label>
                 <input type="text" class="input" id="Address" placeholder="Address" required>
             </div>
-            <button type="submit" class="button">추가</button>
+            <button type="submit" class="up-button">수정</button>
         </form>
     </div>
 
-
     <script>
+        
+        
+        function preData() {
+
+            var pre = {
+                NAME: "친구1",
+                NUMBER: "01011111111",
+                EMAIL: "1111@gmail.com",
+                Address: "포항시"
+            };
+
+            document.getElementById("NAME").value = pre.NAME;
+            document.getElementById("NUMBER").value = pre.NUMBER;
+            document.getElementById("EMAIL").value = pre.EMAIL;
+            document.getElementById("Address").value = pre.Address;
+        }
+
+
+        window.onload = preData;
+        
         function validationCheck(){
+
             var name = document.getElementById("NAME").value;
             var number = document.getElementById("NUMBER").value;
             var email = document.getElementById("EMAIL").value;
@@ -45,7 +65,13 @@
                 return false;
             }
             else{
-                alert("게시물이 추가됩니다");
+                var confirmation = confirm("게시물을 수정하시겠습니까?");
+            if (confirmation) {
+                alert("수정되었습니다!");
+            } else {
+                alert("수정이 취소되었습니다.");
+                return false;
+            }
             }
         }
 

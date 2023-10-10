@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 추가</title>
+    <link rel="stylesheet" type="text/css" href="my.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Friend</h1>
+        <div class="friend-list">
+            <label for="name">Name: 친구1</label>     
+        </div>
+        <div class="friend-list">
+            <label for="number">Number: 01011111111</label>
+        </div>
+        <div class="friend-list">
+            <label for="email">Email: 1111@gmail.com</label>        
+        </div>
+        <div class="friend-list">
+            <label for="Address">Address: 포항시</label>        
+        </div>
+        <button type="submit" onclick="window.location.href='edit.html'" class="button">수정</button>
+        <button type="submit" onclick="return confirmDelete()" class="button" action="index.html">삭제</button>
+    </div>
+
+    <script>
+        function confirmDelete(){
+            var confirmation = confirm("삭제하시겠습니까?");
+            if (confirmation) {
+                alert("삭제되었습니다!");
+                window.location.href = 'index.html'
+            } else {
+                alert("삭제가 취소되었습니다.");
+                return false;
+            }
+        }
+
+    </script>
+</body>
+</html>
