@@ -128,7 +128,8 @@ body {
     
     .index-container {
         padding: 5px;
-        font-size: 5px;
+        font-size: 3px;
+        max-width: 300px;
     }
 
     .container h1 {
