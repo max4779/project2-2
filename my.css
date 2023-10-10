@@ -131,6 +131,8 @@ body {
 
     
     .index-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
         padding: 5px;
         font-size: 3px;
         max-width: 80%;
