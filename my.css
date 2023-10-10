@@ -76,10 +76,6 @@ body {
 
 @media (min-width: 413px) {
 
-    .index-container {
-        padding: 5px;
-    }
-
     .button {
         max-width: 300px;
         margin: 25px;
@@ -128,6 +124,11 @@ body {
 }
 
 @media (max-width: 412px) {
+
+    
+    .index-container {
+        padding: 5px;
+    }
 
     .container h1 {
         font-size: 30px;
