@@ -79,7 +79,7 @@ body {
     text-align: center; 
 }
 
-@media (min-width: 413px) {
+@media (min-width: 768px) {
     .button {
         max-width: 300px;
         margin: 25px;
@@ -127,7 +127,7 @@ body {
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 768px) {
 
     .index-container {
         padding: 10px;
