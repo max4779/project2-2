@@ -52,8 +52,11 @@ body {
 }
 
 .index-container {
-    width: 80%;
     text-align: left;
+}
+
+.index-container{
+    text-align: center;
 }
 
 .f_list {
