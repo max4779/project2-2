@@ -71,7 +71,13 @@ body {
     font-size: 19px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 413px) {
+
+    .button {
+        max-width: 300px;
+        margin: 25px;
+        font-size: 20px;
+    }
 
     .container h1 {
         font-size: 50px;
@@ -114,7 +120,7 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 412px) {
 
     .container h1 {
         font-size: 30px;
@@ -139,7 +145,6 @@ body {
     .up-button {
         width: 80%;
         max-width: 250px;
-        padding: 10px;
         margin: 20px;
         text-align: center;
         font-size: 16px;
@@ -155,4 +160,11 @@ body {
     .friend-list label {
         font-size: 20px;
     }
+
+    .button {
+        max-width: 250px;
+        margin: 20px;
+        font-size: 16px;
+    }
+
 }
