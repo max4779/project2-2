@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend List</title>
+	<link rel="stylesheet" type="text/css" href="my.css">
+	
+</head>
+<body>
+    <div class="index-container">
+        <h1>Friend List</h1>
+        <div id="Add">
+            <a href="add.html" class="text-align:right">친구 추가</a>
+        </div>
+        <table class="f_list">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Number</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>친구1</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+						<a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01022222222</td>
+                    <td>22222@gmail.com</td>
+                    <td>경주시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+						<a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+						<a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+						<a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+						<a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+                        <a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+                        <a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+                        <a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+                        <a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>친구2</td>
+                    <td>01011111111</td>
+                    <td>1111@gmail.com</td>
+                    <td>포항시</td>
+                    <td>
+                        <a href="view.html">보기</a> |
+                        <a href="edit.html">수정</a> |
+                        <a href="#" onclick="confirmDelete()">삭제</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function confirmDelete(){
+            var confirmation = confirm("삭제하시겠습니까?");
+            if (confirmation) {
+                alert("삭제되었습니다!");
+            } else {
+                alert("삭제가 취소되었습니다.");
+            }
+        }
+
+    </script>
+</body>
+</html>
