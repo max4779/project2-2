@@ -69,8 +69,12 @@ body {
     font-size: 19px;
 }
 
+#Add{
+    display: block;
+}
+
 #Add a{
-    text-align: right;
+    text-align: left;
     font-size: 19px;
 }
 
