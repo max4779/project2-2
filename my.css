@@ -187,4 +187,13 @@ body {
         font-size: 16px;
     }
 
+    .f_list {
+        width: 100%;
+        overflow-x: auto; /* 가로 스크롤을 추가하여 너무 좁을 때도 데이터를 스크롤할 수 있게 합니다. */
+    }
+
+    #Add a {
+        text-align: center; /* 중앙 정렬 */
+    }
+
 }
