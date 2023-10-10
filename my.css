@@ -76,6 +76,10 @@ body {
 
 @media (min-width: 413px) {
 
+    .index-container {
+        padding: 5px;
+    }
+
     .button {
         max-width: 300px;
         margin: 25px;
